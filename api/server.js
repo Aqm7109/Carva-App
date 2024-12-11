@@ -33,16 +33,16 @@ const userDataSchema = mongoose.Schema({
 const Data = mongoose.model('UserInfo', userDataSchema, 'userinfos');
 
 // Nodemailer transporter setup
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: process.env.EMAIL_USER, // From .env
-    pass: process.env.EMAIL_PASS, // From .env
-  },
-  pool: true,
-  rateLimit: 1,
-  maxConnections: 5,
-});
+//const transporter = nodemailer.createTransport({
+// service: 'gmail',
+//  auth: {
+//   user: process.env.EMAIL_USER, // From .env
+//    pass: process.env.EMAIL_PASS, // From .env
+//  },
+//  pool: true,
+//  rateLimit: 1,
+//  maxConnections: 5,
+//});
 
 // Email sending route
 app.post('/api/server', async (req, res) => {
@@ -56,17 +56,17 @@ app.post('/api/server', async (req, res) => {
     await newData.save();
 
     // Set up mail options
-    const mailOptions = {
-      from: email,
-      to: 'mothukuriavinash04@gmail.com',
-      subject: `Query from ${name}`,
-      text: `Email from: ${email}\n${message}`,
-      replyTo: email,
-    };
+//    const mailOptions = {
+//      from: email,
+//      to: 'mothukuriavinash04@gmail.com',
+//      subject: `Query from ${name}`,
+//      text: `Email from: ${email}\n${message}`,
+//     replyTo: email,
+//    };
 
     // Send the email
-    const info = await transporter.sendMail(mailOptions);
-    console.log('Email sent:', info.response);
+//    const info = await transporter.sendMail(mailOptions);
+//    console.log('Email sent:', info.response);
 
     // Respond with success after both actions are complete
     res.status(200).send('Email sent successfy and user saved to database');
