@@ -52,8 +52,8 @@ app.post('/api/server', async (req, res) => {
 
   try {
     // Save the user data to MongoDB
-    const newData = new Data({ name, email, message });
-    await newData.save();
+   // const newData = new Data({ name, email, message });
+   // await newData.save();
 
     // Set up mail options
     const mailOptions = {
