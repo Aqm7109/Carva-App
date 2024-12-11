@@ -19,7 +19,9 @@ app.use(cors());
 //   .then(() => console.log('Connected to MongoDB'))
 //   .catch(err => console.error('Could not connect to MongoDB...', err));
 
-  let conn =  mongoose.connect('mongodb+srv://mothukuriavinash04:Stormbreaker%4004@cluster0.hx4sc.mongodb.net/mydatabase')
+  let conn =  mongoose.connect('mongodb+srv://mothukuriavinash04:Stormbreaker%4004@cluster0.hx4sc.mongodb.net/mydatabase',{useNewUrlParser: true,
+      useUnifiedTopology: true,
+      serverSelectionTimeoutMS: 5000,})
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Could not connect to MongoDB...', err));
 
