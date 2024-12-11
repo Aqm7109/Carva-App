@@ -19,18 +19,18 @@ app.use(cors());
 //   .then(() => console.log('Connected to MongoDB'))
 //   .catch(err => console.error('Could not connect to MongoDB...', err));
 
- // let conn =  mongoose.connect('mongodb+srv://mothukuriavinash04:Stormbreaker%4004@cluster0.hx4sc.mongodb.net/mydatabase')
- // .then(() => console.log('Connected to MongoDB'))
- // .catch(err => console.error('Could not connect to MongoDB...', err));
+  let conn =  mongoose.connect('mongodb+srv://mothukuriavinash04:Stormbreaker%4004@cluster0.hx4sc.mongodb.net/mydatabase')
+  .then(() => console.log('Connected to MongoDB'))
+  .catch(err => console.error('Could not connect to MongoDB...', err));
 
 // Schema and model for storing user data
-//const userDataSchema = mongoose.Schema({
-//  name: String,
-//  email: String,
-//  message: String,
-//});
+const userDataSchema = mongoose.Schema({
+  name: String,
+  email: String,
+  message: String,
+});
 
-//const Data = mongoose.model('UserInfo', userDataSchema, 'userinfos');
+const Data = mongoose.model('UserInfo', userDataSchema, 'userinfos');
 
 // Nodemailer transporter setup
 const transporter = nodemailer.createTransport({
@@ -52,8 +52,8 @@ app.post('/api/server', async (req, res) => {
 
   try {
     // Save the user data to MongoDB
-   // const newData = new Data({ name, email, message });
-   // await newData.save();
+    const newData = new Data({ name, email, message });
+    await newData.save();
 
     // Set up mail options
     const mailOptions = {
