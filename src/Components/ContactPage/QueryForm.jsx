@@ -18,29 +18,7 @@ const QueryForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    // // Database part
-    //  const formData = {
-    //    name:e.target.name.value,
-    //    email:e.target.email.value,
-    //    message:e.target.message.value,
-    //  }
-
-    //  try {
-    //    const response = await fetch('https://carva-website.vercel.app/api/server', {
-    //      method: 'POST',
-    //      headers: {
-    //        'Content-Type': 'application/json',
-    //      },
-    //      body: JSON.stringify(formData),
-    //    });
- 
-    //  } catch (error) {
-    //    console.error('Error occurred is:', error);
-    //    alert('An error occurred while submitting the form.');
-    //  }
-
-
+    
     // Use Vite-specific environment variable
     const apiUrl = import.meta.env.VITE_API_URL ;
 
