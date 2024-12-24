@@ -19,7 +19,9 @@ app.use(cors());
 //   .then(() => console.log('Connected to MongoDB'))
 //   .catch(err => console.error('Could not connect to MongoDB...', err));
 
-  let conn =  mongoose.connect('mongodb+srv://mothukuriavinash04:Stormbreaker%4004@cluster0.hx4sc.mongodb.net/mydatabase')
+  let conn =  mongoose.connect('mongodb+srv://mothukuriavinash04:Stormbreaker%4004@cluster0.hx4sc.mongodb.net/mydatabase',{useNewUrlParser: true,
+      useUnifiedTopology: true,
+      serverSelectionTimeoutMS: 5000,})
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Could not connect to MongoDB...', err));
 
@@ -34,14 +36,14 @@ const Data = mongoose.model('UserInfo', userDataSchema, 'userinfos');
 
 // Nodemailer transporter setup
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+ service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER, // From .env
+   user: process.env.EMAIL_USER, // From .env
     pass: process.env.EMAIL_PASS, // From .env
   },
   pool: true,
   rateLimit: 1,
-  maxConnections: 5,
+ maxConnections: 5,
 });
 
 // Email sending route
@@ -61,7 +63,7 @@ app.post('/api/server', async (req, res) => {
       to: 'mothukuriavinash04@gmail.com',
       subject: `Query from ${name}`,
       text: `Email from: ${email}\n${message}`,
-      replyTo: email,
+     replyTo: email,
     };
 
     // Send the email
