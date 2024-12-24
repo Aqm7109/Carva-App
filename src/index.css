@@ -1199,6 +1199,7 @@ color: inherit;
   background-color: #f09e86;
   align-items: center;
   flex-wrap: wrap; /* Ensures flexibility when items overflow */
+
 }
 
 .About-us > div:first-child {

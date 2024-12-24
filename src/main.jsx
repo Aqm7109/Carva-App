@@ -5,25 +5,42 @@ import App from './App.jsx';
 import Aboutpage from './Components/AboutPage/Aboutpage.jsx';
 import Services from './Components/Services.jsx';
 import ContactUs from './Components/ContactPage/ContactUs.jsx';
+import Layout from './Components/Layout.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter(
   [
     {
       path: '/',
-      element: <App />,
+      element: (
+        <Layout>
+          <App />
+        </Layout>
+      ),
     },
     {
       path: '/about',
-      element: <Aboutpage />,
+      element: (
+        <Layout>
+          <Aboutpage />
+        </Layout>
+      ),
     },
     {
       path: '/services',
-      element: <Services />,
+      element: (
+        <Layout>
+          <Services />
+        </Layout>
+      ),
     },
     {
-      path: '/Contact-us',
-      element: <ContactUs />,
+      path: '/contact-us',
+      element: (
+        <Layout>
+          <ContactUs />
+        </Layout>
+      ),
     },
   ],
   {
