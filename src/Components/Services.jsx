@@ -1,5 +1,5 @@
 import React from 'react'
-import Webdev from './ServicesComponents/webdev'
+import Webdev from './ServicesComponents/Webdev'
 import Contentcreation from './ServicesComponents/Contentcreation'
 import DigitalMarketing from './ServicesComponents/DigitalMarketing'
 const Services = () => {
