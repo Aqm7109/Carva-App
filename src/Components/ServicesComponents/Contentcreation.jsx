@@ -10,7 +10,7 @@ const Contentcreation = () => {
   });
   return (
     <div>
-        <div className={`container Flex-class ${inView ? 'visible' : ''}`} ref={ref}>
+        <div className={`container1 Flex-class1 ${inView ? 'visible' : ''}`} ref={ref}>
                 
                 <div className="dev-content">
                    <span className="subtitle-webdev">Content Creation</span>
@@ -29,7 +29,7 @@ const Contentcreation = () => {
         
         
                 </div>
-                <div><img src="/Images/contentcreation.png" alt="" height={580}/></div> 
+                <div className='roundimg'><img src="/Images/contentcreation.png" alt="" height={500}/></div> 
               </div>
 
     </div>

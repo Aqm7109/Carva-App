@@ -7,7 +7,7 @@ const webdev = () => {
     <div>
       
       <div className="container">
-         <div><img src="/Images/Webdevelopment.png" alt="" height={380}/></div> 
+         <div><img className='webdevimg' src="/Images/Webdevelopment.png" alt="" height={380}/></div> 
         
         <div className="dev-content">
            <span className="subtitle-webdev">Website Development</span>
@@ -19,7 +19,7 @@ const webdev = () => {
             </div>
 
             <div className='dd'>
-              <FontAwesomeIcon icon={faCaretRight} className="icon" />Single Page Applications
+              <FontAwesomeIcon icon={faCaretRight} className="icon" />SPA's
               <FontAwesomeIcon icon={faCaretRight} className="icon" />Landing Page
               <FontAwesomeIcon icon={faCaretRight} className="icon" />Corporate Website
               {/* <FontAwesomeIcon icon={faCaretRight} className="icon" />E-Commerce Project */}

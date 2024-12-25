@@ -11,8 +11,7 @@ const DigitalMarketing = () => {
 
   return (
     <div>
-       <div className={`Marketing-container Flex-class ${inView ? 'visible' : ''}`} ref={ref} >
-       <div className='polaroid-video'><video src="/Images/large.mp4" alt="video" autoPlay muted loop  /></div> 
+       <div className={`Marketing-container Flex-class1 ${inView ? 'visible' : ''}`} ref={ref} >
                        <div className="dev-content">
                          <span className="subtitle-webdev">Digital Marketing</span>
                          <div className='webdev-content'>
@@ -30,6 +29,8 @@ const DigitalMarketing = () => {
               
             
                       </div> 
+                      <div className='polaroid-video'><video className='DigiMarketing' src="/Images/large.mp4" alt="video" autoPlay muted loop  /></div> 
+
                      
                     </div>
     </div>
