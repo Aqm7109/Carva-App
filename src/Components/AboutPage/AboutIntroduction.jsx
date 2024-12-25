@@ -18,7 +18,7 @@ const AboutIntroduction = () => {
 
             </div>
              
-            <div><img src="Images/Ourmission.webp" height={500} alt="abut" /></div>
+            <div><img src="Images/Ourmission.webp" height={450} alt="abut" /></div>
       </div>
 
      
