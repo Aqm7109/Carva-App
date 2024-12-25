@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: ivory;
+     /* background:linear-gradient(to bottom ,ivory,#f3e8d8); */
+}
+
+.dev-content
+{
+    /* border: solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle-webdev {
+    color: #ffffff;
+    background: 0 0;
+    text-shadow: 2px 2px 0 #272730, 2px -2px 0 #272730, -2px 2px 0 #272730, -2px -2px 0 #272730, 2px 0px 0 #272730, 0px 2px 0 #272730, -2px 0px 0 #272730, 0px -2px 0 #272730;
+    font-size: 80px;
+    font-family: "Proxima-Bold";
+    margin: -20px 0 -15px;
+    margin-bottom: 10px;
+}
+
+.webdev-content {
+    /* border: 2px solid black; */
+    width: 650px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.webdev-content div:first-child,.webdev-content div:nth-child(2){
+    margin-bottom: 20px;
+}
+.icon {
+    /* color: #007bff; */
+    color: #e10e0e; 
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 26px;
+  }
+
+.dd{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    width: 650px;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+}
+  
+.dd1{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    width: 650px;
+    word-wrap: break-word;
+    flex-direction: column;
+}
+.dd1 div {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.Marketing-container{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: ivory;
+     /* background:linear-gradient(to bottom ,ivory,#f3e8d8); */
+}
+
+  .polaroid-video {
+    width: 700px; /* Adjust the size as needed */
+    height: 500px;
+    border: 15px solid #fff; /* White border around the video */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    background-color: #f2f2f2; /* Optional background color for a vintage effect */
+    margin: 20px;
+    position: relative;
+  }
+
+  .polaroid-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire frame */
+  }

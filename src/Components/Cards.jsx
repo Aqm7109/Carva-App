@@ -3,7 +3,7 @@ import React from 'react'
 const Cards = () => {
   return (
     <div>
-          <div className='card-heading'>Services We Provide</div>
+          <div className='card-heading'>Our Best Services</div>
           <div className="card-container">
               <div className="card card-1">
                 <div>01</div>
