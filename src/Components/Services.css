@@ -73,7 +73,7 @@
     height: 70vh;
     align-items: center;
     justify-content: space-around;
-    background-color: ivory;
+    background-color: rgb(240, 255, 242);
      /* background:linear-gradient(to bottom ,ivory,#f3e8d8); */
 }
 
@@ -92,3 +92,18 @@
     height: 100%;
     object-fit: cover; /* Ensures the video covers the entire frame */
   }
+
+  /* Default state: hidden */
+.Flex-class video,
+.Flex-class .dev-content {
+  opacity: 0;
+  transform: translateY(20px); /* Optional: Adds a slide-in effect */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Visible state: shown */
+.Flex-class.visible video,
+.Flex-class.visible .dev-content {
+  opacity: 1;
+  transform: translateY(0); /* Reset position when visible */
+}

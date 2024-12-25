@@ -5,7 +5,7 @@ const OurStory = () => {
   // Use Intersection Observer for scroll detection
   const [ref, inView] = useInView({
     triggerOnce: false, // Animation triggers both on entry and exit
-    threshold: 0.2, // Adjust to control when the animation starts
+    threshold: 0.25, // Adjust to control when the animation starts
   });
 
   return (

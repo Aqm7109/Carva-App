@@ -1219,19 +1219,6 @@ color: inherit;
   font-size: 1.5rem;
   text-align: justify;
 }
-
-.Flex-class {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.Flex-class > img {
-  position: relative;
-  bottom: 50px;
-}
-
 .About-us {
   height: 70vh;
   display: flex;

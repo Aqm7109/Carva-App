@@ -1,10 +1,16 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
+import { useInView } from 'react-intersection-observer'
 const Contentcreation = () => {
+
+  const [ref, inView] = useInView({
+    triggerOnce: false, // Animation triggers both on entry and exit
+    threshold: 0.2, // Adjust to control when the animation starts
+  });
   return (
     <div>
-        <div className="container">
+        <div className={`container Flex-class ${inView ? 'visible' : ''}`} ref={ref}>
                 
                 <div className="dev-content">
                    <span className="subtitle-webdev">Content Creation</span>

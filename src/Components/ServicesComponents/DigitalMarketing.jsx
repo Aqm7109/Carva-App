@@ -1,10 +1,17 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
+import { useInView } from 'react-intersection-observer';
 const DigitalMarketing = () => {
+  
+  const [ref, inView] = useInView({
+      triggerOnce: false, // Animation triggers both on entry and exit
+      threshold: 0.2, // Adjust to control when the animation starts
+    });
+
   return (
     <div>
-       <div className="Marketing-container">
+       <div className={`Marketing-container Flex-class ${inView ? 'visible' : ''}`} ref={ref} >
        <div className='polaroid-video'><video src="/Images/large.mp4" alt="video" autoPlay muted loop  /></div> 
                        <div className="dev-content">
                          <span className="subtitle-webdev">Digital Marketing</span>
