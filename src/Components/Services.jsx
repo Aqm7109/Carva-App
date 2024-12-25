@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 const Services = () => {
   return (
     <div>
-        <Navbar/>
+      
     </div>
   )
 }

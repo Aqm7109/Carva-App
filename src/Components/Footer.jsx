@@ -1,8 +1,10 @@
 import React from 'react'
 import './Footer.css'
+import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
-    
+      <div>
+          {/* <div className="separator"></div> */}
           <div className="footer-section">
            <div> 
             <img src="/Images/CARVALOGO.svg" alt="check again" height={300} />
@@ -11,10 +13,11 @@ const Footer = () => {
 
           <div className='Our-services'>
               <div>Services</div>
-              <div>Web Development</div>
-              <div>Content Creation</div>
-              <div>Social Media Marketing</div>
-              <div>Digital Marketing</div>
+              <div><NavLink className='NavLink' to="/Services">Web Development</NavLink></div>
+              <div><NavLink className='NavLink' to = "/Services">Content Creation</NavLink></div>
+              <div><NavLink className='NavLink' to = "/Services">Social Media Marketing</NavLink></div>
+              <div><NavLink className='NavLink' to = "/Services">Digital Marketing</NavLink></div>
+              
           </div>
 
           <div className="contact-section">
@@ -26,7 +29,7 @@ const Footer = () => {
       
 
           </div>
-    
+       </div>
   )
 }
 

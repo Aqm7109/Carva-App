@@ -6,7 +6,6 @@ import OurStory from './OurStory.jsx'
 const Aboutpage = () => {
   return (
     <div>
-      <Navbar/>
       <AboutIntroduction/>
       <OurStory/>
     </div>

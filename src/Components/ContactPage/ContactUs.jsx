@@ -5,7 +5,6 @@ import QueryForm from './QueryForm'
 const ContactUs = () => {
   return (
     <div>
-      <Navbar/>
       <QueryForm/>
     </div>
   )
