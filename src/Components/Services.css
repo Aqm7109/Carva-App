@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 @media (min-width: 1156px) {
          
 .container{
@@ -37,11 +40,9 @@
 }
 
 .subtitle-webdev {
-    color: #ffffff;
-    background: 0 0;
-    text-shadow: 2px 2px 0 #272730, 2px -2px 0 #272730, -2px 2px 0 #272730, -2px -2px 0 #272730, 2px 0px 0 #272730, 0px 2px 0 #272730, -2px 0px 0 #272730, 0px -2px 0 #272730;
+    color: #000000;
     font-size: 65px;
-    font-family: "Proxima-Bold";
+    font-family: "Gideon Roman", serif;
     margin: -20px 0 -15px;
    
 }
@@ -51,7 +52,7 @@
     /* border: 2px solid black; */
     width: 650px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 24px;
     padding: 20px;
 }
 
@@ -199,9 +200,7 @@
 }
 
 .subtitle-webdev {
-    color: #ffffff;
-    background: 0 0;
-    text-shadow: 2px 2px 0 #272730, 2px -2px 0 #272730, -2px 2px 0 #272730, -2px -2px 0 #272730, 2px 0px 0 #272730, 0px 2px 0 #272730, -2px 0px 0 #272730, 0px -2px 0 #272730;
+    color: #000000;
     font-size: 70px;
     font-family: "Proxima-Bold";
     margin: -20px 0 -15px;
@@ -212,7 +211,7 @@
     /* border: 2px solid black; */
     width: 620px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 24px;
     padding: 20px;
 }
 
@@ -341,9 +340,7 @@
 }
 
 .subtitle-webdev {
-    color: #ffffff;
-    background: 0 0;
-    text-shadow: 2px 2px 0 #272730, 2px -2px 0 #272730, -2px 2px 0 #272730, -2px -2px 0 #272730, 2px 0px 0 #272730, 0px 2px 0 #272730, -2px 0px 0 #272730, 0px -2px 0 #272730;
+    color: #000000;
     font-size:40px;
     font-family: "Proxima-Bold";
     margin: -20px 0 -15px;
@@ -354,7 +351,7 @@
     /* border: 2px solid black; */
     width: 460px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 24px;
     padding: 20px;
 }
 
@@ -484,9 +481,7 @@
 }
 
 .subtitle-webdev {
-    color: #ffffff;
-    background: 0 0;
-    text-shadow: 2px 2px 0 #272730, 2px -2px 0 #272730, -2px 2px 0 #272730, -2px -2px 0 #272730, 2px 0px 0 #272730, 0px 2px 0 #272730, -2px 0px 0 #272730, 0px -2px 0 #272730;
+    color: #000000;
     font-size:80px;
     font-family: "Proxima-Bold";
     margin: -20px 0 -15px;
@@ -497,7 +492,7 @@
   /* border: 2px solid black; */
   width: 650px;
   text-align: justify;
-  font-size: 20px;
+  font-size: 24px;
   padding: 20px;
 }
 
@@ -628,9 +623,7 @@
 }
 
 .subtitle-webdev {
-    color: #ffffff;
-    background: 0 0;
-    text-shadow: 2px 2px 0 #272730, 2px -2px 0 #272730, -2px 2px 0 #272730, -2px -2px 0 #272730, 2px 0px 0 #272730, 0px 2px 0 #272730, -2px 0px 0 #272730, 0px -2px 0 #272730;
+    color: #000000;
     font-size:35px;
     font-family: "Proxima-Bold";
     margin: -20px 0 -15px;
@@ -641,7 +634,7 @@
   /* border: 2px solid black; */
   width: 500px;
   text-align: justify;
-  font-size: 20px;
+  font-size: 24px;
   padding: 20px;
 }
 
@@ -772,9 +765,7 @@
 }
 
 .subtitle-webdev {
-    color: #ffffff;
-    background: 0 0;
-    text-shadow: 2px 2px 0 #272730, 2px -2px 0 #272730, -2px 2px 0 #272730, -2px -2px 0 #272730, 2px 0px 0 #272730, 0px 2px 0 #272730, -2px 0px 0 #272730, 0px -2px 0 #272730;
+    color: #000000;
     font-size:25px;
     font-family: "Proxima-Bold";
     margin: -20px 0 -15px;

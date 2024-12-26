@@ -1,6 +1,7 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 const SocialMedia = () => {
 
   const [ref, inView] = useInView({
@@ -20,9 +21,17 @@ const SocialMedia = () => {
 
                     <div className='webdev-content'>
                           <div>
-                          In today's digital age, social media marketing is a powerful tool for businesses to reach and engage with their target audience. Harnessing platforms such as Facebook, Instagram, Twitter, and LinkedIn allows companies to connect with consumers, build brand awareness, and drive sales like never before. With tailored content and strategic advertising, businesses can effectively promote products and services, engage with their audience in real-time, and gather valuable insights through social media analytics. Whether you're a small startup or a large corporation, social media marketing is essential for growing your online presence and achieving business success.</div>
+                          In today's digital age, social media marketing is a powerful tool for businesses to reach and engage with their target audience.With tailored content and strategic advertising, businesses can effectively promote products and services, engage with their audience in real-time, and gather valuable insights through social media analytics.Social media marketing is essential for growing your online presence and achieving business success.</div>
                           
                           {/* <div>Why Choose Us ?</div> */}
+                    </div>
+
+                    <div className='dd'>
+                                  <FontAwesomeIcon icon={faCaretRight} className="icon" />Drive Conversions
+                                  <FontAwesomeIcon icon={faCaretRight} className="icon" />Customer Relations
+                                  <FontAwesomeIcon icon={faCaretRight} className="icon" />Brand Awareness
+                                  <FontAwesomeIcon icon={faCaretRight} className="icon" />Stay Competitive
+                                  {/* <FontAwesomeIcon icon={faCaretRight} className="icon" />E-Commerce Project */}
                     </div>
 
               

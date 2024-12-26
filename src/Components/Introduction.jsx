@@ -13,13 +13,12 @@ const Introduction = () => {
                 </div>
 
                 <div className='Heading'>
-                <b>Digital Media Expert with</b>
-                <div>12+ Years of Professional Experience.</div>
+                <b>Elevate your brands presence with us</b>
 
                 </div>
 
                 <div className='main-content'>
-                This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+                Welcome to Carva MediaHub, your go-to digital media experts with over 4 years of experience in helping businesses shine online. We specialize in creating impactful strategies that amplify your brand’s presence, crafting engaging content that connects with your audience, and running data-driven campaigns that deliver measurable results. Whether it's enhancing your social media engagement, optimizing digital ad performance, or building a memorable online identity, we bring passion and expertise to every project. Let’s work together to turn your vision into a digital success story!
                 </div>
 
 

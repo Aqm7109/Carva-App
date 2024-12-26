@@ -22,7 +22,7 @@ const Footer = () => {
 
           <div className="contact-section">
               <div>Contacts</div>
-              <div>+91 9573929045</div>
+              <div>+91 9573929045 | +91 8008878373</div>
               <div>carvamediahub@gmail.com</div>
           </div>
           

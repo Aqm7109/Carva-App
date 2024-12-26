@@ -18,17 +18,10 @@ const OurStory = () => {
         <img src="/Images/CARVALOGO.svg" height={600} alt="" />
         <div className="Storycontainer">
           <div className="Story-content-1">
-            Every website has a story, and your visitors want to hear yours. This
-            space is a great opportunity to give a full background on who you are,
-            what your team does, and what your site has to offer. Double click on
-            the text box to start editing your content and make sure to add all
-            the relevant details you want site visitors to know.
+          Carva MediaHub was born during the pandemic, a time when the world shifted online, and premium businesses sought innovative ways to adapt to the digital-first era. It all started with two friends who recognized the need for bespoke strategies to help high-end brands maintain their excellence in an evolving market.We began by offering tailored solutions to elevate their online presence and connect them with discerning audiences.
           </div>
           <div className="Story-content-2">
-            If you’re a business, talk about how you started and share your
-            professional journey. Explain your core values, your commitment to
-            customers, and how you stand out from the crowd. Add a photo, gallery,
-            or video for even more engagement.
+           What started as a passion project quickly grew into a premium Social Media Marketing Agency dedicated to empowering elite brands with cutting-edge digital strategies. Today, Carva MediaHub continues to partner with top-tier clients, delivering unparalleled results with creativity and precision.
           </div>
         </div>
       </div>
