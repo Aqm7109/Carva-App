@@ -40,7 +40,7 @@
     color: #ffffff;
     background: 0 0;
     text-shadow: 2px 2px 0 #272730, 2px -2px 0 #272730, -2px 2px 0 #272730, -2px -2px 0 #272730, 2px 0px 0 #272730, 0px 2px 0 #272730, -2px 0px 0 #272730, 0px -2px 0 #272730;
-    font-size: 73px;
+    font-size: 65px;
     font-family: "Proxima-Bold";
     margin: -20px 0 -15px;
    
@@ -97,6 +97,16 @@
     background-color: rgb(240, 255, 242);
      /* background:linear-gradient(to bottom ,ivory,#f3e8d8); */
 }
+.Social-Media-container{
+    display: flex;
+    flex-direction: row-reverse;
+    /* border: 2px solid black; */
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(240, 255, 242);  
+  
+}
 
   .polaroid-video {
     width: 590px; /* Adjust the size as needed */
@@ -115,7 +125,7 @@
   }
 
   /* Default state: hidden */
-.Flex-class1 video,
+.Flex-class1 video, .Flex-class1 img, 
 .Flex-class1 .dev-content {
   opacity: 0;
   transform: translateY(20px); /* Optional: Adds a slide-in effect */
@@ -123,10 +133,21 @@
 }
 
 /* Visible state: shown */
-.Flex-class1.visible video,
+.Flex-class1.visible video,.Flex-class1.visible img,
 .Flex-class1.visible .dev-content {
   opacity: 1;
   transform: translateY(0); /* Reset position when visible */
+}
+
+
+.svg1{
+  position: relative;
+  right:10px;
+}
+
+.svg2{
+  position: relative;
+  left: 10px;
 }
 
 }
@@ -811,6 +832,7 @@
     background-color: rgb(240, 255, 242);
      /* background:linear-gradient(to bottom ,ivory,#f3e8d8); */
 }
+
 
   .polaroid-video {
     width: 350px; 

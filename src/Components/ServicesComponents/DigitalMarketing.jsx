@@ -29,7 +29,7 @@ const DigitalMarketing = () => {
               
             
                       </div> 
-                      <div className='polaroid-video'><video className='DigiMarketing' src="/Images/large.mp4" alt="video" autoPlay muted loop  /></div> 
+                      <div className='polaroid-video'><video className='DigiMarketing' src="/Images/large.mp4" alt="video" autoPlay muted loop/></div> 
 
                      
                     </div>
