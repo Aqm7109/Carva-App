@@ -30,10 +30,12 @@ const SocialMedia = () => {
                                   <FontAwesomeIcon icon={faCaretRight} className="icon" />Drive Conversions
                                   <FontAwesomeIcon icon={faCaretRight} className="icon" />Customer Relations
                                   <FontAwesomeIcon icon={faCaretRight} className="icon" />Brand Awareness
-                                  <FontAwesomeIcon icon={faCaretRight} className="icon" />Stay Competitive
-                                  {/* <FontAwesomeIcon icon={faCaretRight} className="icon" />E-Commerce Project */}
+                                  
                     </div>
 
+                    <div className='dd'>
+                                  <FontAwesomeIcon icon={faCaretRight} className="icon" />Stay Competitive
+                    </div>
               
 
                     </div>
